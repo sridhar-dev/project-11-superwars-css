@@ -1,4 +1,27 @@
+div{
+  display: flex;
+  flex-direction: row ;
+}
+div>img{
+  width:60px;
+}
+.hero1,.hero2,.villan1,.villan2 {
+  border:2px solid rgba(223, 220, 220, 0.787);
+  margin-left:5px;
+  margin-right: 5px;
+}
+span{
+  font-size: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.score{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+
 .footer{
   margin-left : 80px;
-  font-size : 18px;
+  font-size : 18px; 
 }
